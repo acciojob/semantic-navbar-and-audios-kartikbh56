@@ -1,71 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Semantic Navbar and Audio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    nav {
-      background-color: #f0f0f0;
-      padding: 10px;
-      border-radius: 6px;
-      margin-bottom: 20px;
-    }
-    nav ul {
-      list-style-type: none;
-      display: flex;
-      gap: 20px;
-      padding: 0;
-      margin: 0;
-    }
-    nav a {
-      text-decoration: none;
-      color: #007BFF;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      margin-top: 30px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Semantic Navbar and Audio Section</title>
 </head>
 <body>
 
   <!-- Part 1: Semantic Navigation Bar -->
   <nav>
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://example.com/home">Home</a></li>
+      <li><a href="https://example.com/about">About</a></li>
+      <li><a href="https://example.com/contact">Contact</a></li>
     </ul>
   </nav>
 
   <!-- Part 2: Audio Section -->
-  <section id="audio">
-    <h2>Enjoy These Random Audios</h2>
-    <p>Below are three random audio tracks you can listen to:</p>
-
+  <section>
+    <h2>3 random audios</h2>
+    
     <audio controls>
-      <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mp3">
+      <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
-    <br><br>
+    <br>
 
     <audio controls>
       <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
       Your browser does not support the audio element.
     </audio>
-    <br><br>
+    <br>
 
     <audio controls>
-      <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mp3">
+      <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
+
   </section>
 
 </body>
